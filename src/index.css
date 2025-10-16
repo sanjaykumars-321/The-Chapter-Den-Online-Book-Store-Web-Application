@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navBg {
+    @apply rounded-full bg-transparent px-5 py-3;
+  }
+
+  .navhover:hover {
+    @apply box-border bg-[#FFEEE6] text-[#FF5500];
+  }
+
+  .imageBtn {
+    @apply h-[7.5rem] w-[5.5rem] rounded-xl border-[3px] px-3 py-3 transition-all hover:bg-white hover:opacity-[0.7] active:bg-white active:opacity-[0.7];
+  }
+
+  .bookDetailStyle {
+    @apply flex w-[18rem] flex-col gap-2 rounded-xl bg-white px-4 py-4 text-[1.1rem] font-semibold text-gray-900 shadow-sm shadow-gray-500;
+  }
+
+  .bookDataStyle {
+    @apply rounded-xl bg-gray-100 px-4 py-3 text-center text-[1rem] font-normal;
+  }
+
+  .bookTableMainStyle {
+    @apply rounded-3xl bg-white px-8 py-8;
+  }
+
+  .formLayout {
+    @apply flex flex-col items-center justify-center gap-6 rounded-xl px-10 py-12 shadow-[0px_1px_4px_rgba(0,0,0,0.16)];
+  }
+
+  .formTitle {
+    @apply text-2xl font-bold text-gray-900;
+  }
+
+  .formLabel {
+    @apply text-base font-medium text-gray-900;
+  }
+
+  .formInputBox {
+    @apply w-[22.5rem] rounded-lg border-[1.2px] border-gray-500 px-4 py-[6px] text-base text-gray-900 outline-none focus:border-[2px] focus:border-[#ff5500];
+  }
+
+  .logsignButton {
+    @apply rounded-full px-8 py-2 text-lg text-gray-800 transition-all;
+  }
+}
+
+.stickyNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: 2px solid #ffaa80;
+}
+
+.spinner {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.5rem solid #ff5500;
+  border-top: 0.5rem solid white;
+  transition-property: transform;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+.spinnerMini {
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid #ff5500;
+  border-top: 3px solid white;
+  transition-property: transform;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
