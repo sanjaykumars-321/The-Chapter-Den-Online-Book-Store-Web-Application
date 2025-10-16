@@ -1,0 +1,1 @@
+import{j as e}from"./index-CxhnL_yD.js";function t({children:s}){return e.jsx("p",{className:"text-sm text-red-700",children:s})}const o="/assets/login-signup-image-g76ZY7lF.webp";export{t as F,o as r};

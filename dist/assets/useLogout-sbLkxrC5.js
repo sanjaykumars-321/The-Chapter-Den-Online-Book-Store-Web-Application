@@ -1,0 +1,1 @@
+import{d as e,w as s,z as n}from"./index-CxhnL_yD.js";import{u as i}from"./SpinnerMini-TSTRqYFy.js";function c(){const o=e(),{mutate:t,isPending:u}=i({mutationFn:s,onSuccess:()=>{o.removeQueries(["user"]),window.location.href="/login",o.invalidateQueries(["user",u]),n.success("your account logout")}});return{logout:t,isLoading:u}}export{c as u};

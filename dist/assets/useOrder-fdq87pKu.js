@@ -1,0 +1,1 @@
+import{h as s}from"./index-CxhnL_yD.js";import{O as i}from"./apiOrder-D3EiarbZ.js";function n(){const{data:r,isPending:e,error:o}=s({queryKey:["orders"],queryFn:i});return{orderDetails:r,isLoading:e,error:o}}export{n as u};

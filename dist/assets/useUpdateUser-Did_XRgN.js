@@ -1,0 +1,1 @@
+import{u as p}from"./SpinnerMini-TSTRqYFy.js";import{m as d}from"./index-CxhnL_yD.js";function g(){const{mutate:e,isPending:t,error:r}=p({mutationFn:({fullName:u,phoneNumber:a,doorNoStreet:s,landMark:o,city:n,pinCode:i,state:m,value:U})=>d({fullName:u,phoneNumber:a,doorNoStreet:s,landMark:o,city:n,pinCode:i,state:m})});return{updateUser:e,isLoading:t,error:r}}export{g as u};

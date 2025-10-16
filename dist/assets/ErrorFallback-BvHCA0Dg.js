@@ -1,0 +1,1 @@
+import{j as e}from"./index-CxhnL_yD.js";import{b as t}from"./index-BXsKJbct.js";function a({error:r}){return e.jsxs("div",{className:"flex h-screen w-full items-center justify-center gap-8",children:[e.jsx("span",{children:e.jsx(t,{size:50})}),e.jsx("h1",{className:"text-center text-4xl font-normal text-gray-900",children:r})]})}export{a as E};
